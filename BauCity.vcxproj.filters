@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utils">
+      <UniqueIdentifier>{5bed4de6-2b3d-4a49-8b2c-015630676ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Interface">
+      <UniqueIdentifier>{6dfe7348-b86c-4e0d-a11b-beb977f13641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Input">
+      <UniqueIdentifier>{4e84f102-36e5-4b82-bd2a-e49b96ef726a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\DEBUG">
+      <UniqueIdentifier>{77382f37-dea3-4d65-85d3-6b4ce5c3a7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Selector">
+      <UniqueIdentifier>{c1257052-03ae-4de4-b269-f829474e81a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\EventManager">
+      <UniqueIdentifier>{8fad2e97-78aa-4c1b-ada5-3e819f7f5c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\EventManager\Command">
+      <UniqueIdentifier>{d78f3b19-d708-4f42-a645-d4fc01abdbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\CitySelector">
+      <UniqueIdentifier>{9a6191ea-b119-46e8-a16e-bd61edea2051}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Archivos de encabezado\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Archivos de encabezado\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Archivos de encabezado\DEBUG</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Archivos de encabezado\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="selector.cpp">
+      <Filter>Archivos de encabezado\Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="citySelectorEventManager.cpp">
+      <Filter>Archivos de origen\CitySelector</Filter>
+    </ClCompile>
+    <ClCompile Include="citySelectorCommands.cpp">
+      <Filter>Archivos de origen\CitySelector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Archivos de encabezado\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Archivos de encabezado\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Archivos de encabezado\DEBUG</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Archivos de encabezado\Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Archivos de encabezado\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Archivos de encabezado\EventManager\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CitySelectorEventManager.h">
+      <Filter>Archivos de origen\CitySelector</Filter>
+    </ClInclude>
+    <ClInclude Include="CitySelectorCommands.h">
+      <Filter>Archivos de origen\CitySelector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
